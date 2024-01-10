@@ -2,7 +2,16 @@
 
 ### Technologies : Core JAVA, Kotlin , SQLite(Database) , XML(as UI)
 
-To-Do List App Abstraction:
+
+#### Description :
+
+The project is a To-Do List application developed using Java and Kotlin, with SQLite as the underlying database. This application allows users to manage their tasks efficiently through a user-friendly interface. Users can view, add, edit, and delete tasks, as well as mark tasks as completed.
+
+The application follows a structured architecture with distinct layers, including the user interface, data model, database layer, and business logic. The data model is represented by a Task class, encompassing properties such as id, title, description, due date, and completion status. The SQLite database, managed through a TaskTable, stores and retrieves task information.
+
+The business logic is encapsulated in a TaskManager, facilitating communication between the user interface and the data model. It manages task retrieval, user actions (add, edit, delete), and updates to the database. Event listeners handle user input, triggering actions in the business logic layer.
+
+#### To-Do List App Abstraction :
 1. User Interface (UI):
 Main Screen:
 Displays a list of tasks.
@@ -13,12 +22,12 @@ Displays detailed information about a specific task.
 Allows users to edit task details.
 2. Data Model:
 Task Class:
-Properties: id, title, description, dueDate, isCompleted.
+Properties: id, title, dueDate, isCompleted, task priority, category.
 Represents a single task in the to-do list.
 Provides methods for creating, updating, and deleting tasks.
 3. Database (SQLite):
 TaskTable:
-Stores task data, including id, title, description, dueDate, isCompleted.
+Stores task data, including id, title, dueDate, isCompleted, task priority, category.
 Supports CRUD operations for tasks.
 Establishes a connection between the app and the SQLite database.
 4. Business Logic:
@@ -59,3 +68,6 @@ Includes tests for database operations, business logic, and UI interactions.
 ![App Screenshot](screenshots/Screenshot%202024-01-10%20143934.png)
 ![App Screenshot](screenshots/Screenshot%202024-01-10%20143955.png)
 ![App Screenshot](screenshots/Screenshot%202024-01-10%20144012.png)
+
+
+### Author : Kona Vamsi Krishna | vamsikrish2705@gmail.com
