@@ -58,4 +58,4 @@ Includes tests for database operations, business logic, and UI interactions.
 ![App Screenshot](screenshots/Screenshot%202024-01-10%20143909.png)
 ![App Screenshot](screenshots/Screenshot%202024-01-10%20143934.png)
 ![App Screenshot](screenshots/Screenshot%202024-01-10%20143955.png)
-![App Screenshot](screenshots/Screenshot 2024-01-10 144012.png)
+![App Screenshot](screenshots/Screenshot%202024-01-10%20144012.png)
