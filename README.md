@@ -60,6 +60,47 @@ Unit Tests:
 Develops unit tests to ensure the correctness of individual components.
 Includes tests for database operations, business logic, and UI interactions.
 
+### Process to access the project :
+
+#### Before running the application, ensure that you have the following installed:
+
+Android Studio - The official IDE for Android development.
+    https://developer.android.com/studio
+    
+Java Development Kit (JDK) - Make sure you have a compatible JDK installed.
+    https://download.oracle.com/java/21/archive/jdk-21.0.1_windows-x64_bin.exe
+
+### Steps to Set Up and Run the Application
+
+#### Clone the Repository:
+    git clone https://github.com/vamsi2000030493/ToDoList_KEKA_TECH.git
+
+
+#### Open Project in Android Studio:
+Launch Android Studio hedgehog.
+Click on "Open an existing Android Studio project."
+Navigate to the directory where you cloned the repository and select the project.
+
+#### Configure SDK and Emulator:
+Ensure that your SDK , API & Gradle is properly configured.
+Set up an emulator or connect a physical Android device.
+
+#### Build and Run:
+Build the project by clicking on the "Build" option in the top menu.
+Run the application by clicking on the "Run" option.
+
+#### Use the Application:
+Once the application is launched, you can start adding tasks, setting due dates, assigning priorities, and categorizing tasks.
+
+#### Local Storage:
+The application automatically utilizes local storage to save tasks. There's no need for additional setup for this feature.
+
+#### Explore Features:
+Test out different features such as changing task statuses (New, In Progress, Completed), updating task details, and deleting tasks.
+
+ #### Task Management:
+Use the app to manage your tasks efficiently with the provided features.
+
 #### output :
 
 
